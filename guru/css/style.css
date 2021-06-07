@@ -1,0 +1,214 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    text-decoration: none; 
+    list-style: none; 
+    border: none;
+    outline: none;
+}
+body {
+    font-family: poppins;
+}
+body {
+    font-family: poppins;
+}
+
+/* NavBar */
+.navbar {
+    position: relative;
+    z-index: 2;
+}
+.navbar-brand {
+    color: white;
+    font-family: Poppins extrabold;
+    font-size: 32px;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+.navbar-nav .btn {
+    background-color: #ff0000;
+    border: none;
+}
+
+
+.content {
+    border: solid 2PX #F1F2F6;
+    box-sizing: border-box;
+    padding: 12PX;
+    padding-top: 50px;
+    width: 50%;
+    margin-bottom: 4PX;
+}
+.content .Title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1EM;
+    font-weight: bold;
+    color: #1878F3;
+}
+.content .biodata {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Biodata .form {
+    width: calc(100%);
+}
+.form label {
+    line-height: 28PX;
+    font-size: 0.95EM;
+    text-align: left;
+    margin-bottom: 0;
+}
+.form input {
+    box-sizing: border-box;
+    height: 40PX;
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    border: 2PX Solid #B1B7CD;
+    background-color: #F1F2F6;
+    border-radius: 0.25REM;
+    padding: 5PX;
+    transition: .2S linear;
+}
+.form input:focus {
+    transition: .2S linear;
+    border: 2PX Solid #1878F3;
+}
+.form select {
+    box-sizing: border-box;
+    height: 40PX;
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    border: 2PX Solid #B1B7CD;
+    background-color: #F1F2F6;
+    border-radius: 0.25REM;
+    padding: 5PX;
+    transition: .2S linear;
+}
+.form select:focus {
+    transition: .2S linear;
+    border: 2PX Solid #1878F3;
+}
+.form .button {
+    border-radius: 0.25EM;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1EM;
+    margin-top: 10PX;
+    height: 48PX;
+    width: 15%;
+    color: #FFF;
+    background-color: #1878F3;
+    cursor: pointer;
+    transition: .4S linear;
+  }
+.form .button {
+    background-color: #0A5AC2;
+    background-position: right;
+    transition: .4S linear;
+} 
+
+/* footer */
+
+.footer-bottom {
+    background: rgb(34, 34, 34);
+    width: 100vw;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color:rgb(151, 151, 151);
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    opacity: 40%;
+    margin-top: 10px;
+}
+
+/* DESKTOP */
+@media (min-width: 992px) {
+    .navbar {
+        position: fixed;
+        text-align: center;
+    }
+
+    .navbar-brand, .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0B63DC;
+        width: 100%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .content {
+        border: solid 2PX #F1F2F6;
+        box-sizing: border-box;
+        padding: 12PX;
+        padding-top: 100px;
+        width: 100%;
+        margin-bottom: 4PX;
+    }
+    .form input {
+        box-sizing: border-box;
+        height: 40PX;
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+        border: 2PX Solid #B1B7CD;
+        background-color: #F1F2F6;
+        border-radius: 0.25REM;
+        padding: 5PX;
+        transition: .2S linear;
+    }
+    .form input:focus {
+        transition: .2S linear;
+        border: 2PX Solid #1878F3;
+    }
+    .form select {
+        box-sizing: border-box;
+        height: 40PX;
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+        border: 2PX Solid #B1B7CD;
+        background-color: #F1F2F6;
+        border-radius: 0.25REM;
+        padding: 5PX;
+        transition: .2S linear;
+    }
+    .form select:focus {
+        transition: .2S linear;
+        border: 2PX Solid #1878F3;
+    }
+    .form .button {
+        border-radius: 0.25EM;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1EM;
+        margin-top: 10PX;
+        height: 48PX;
+        width: 30%;
+        color: #FFF;
+        background-color: #1878F3;
+        cursor: pointer;
+        transition: .4S linear;
+      }
+    .form .button {
+        background-color: #0A5AC2;
+        background-position: right;
+        transition: .4S linear;
+    }
+}
