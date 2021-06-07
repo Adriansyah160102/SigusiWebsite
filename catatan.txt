@@ -1,0 +1,5 @@
+jika Login :
+
+1. Admin = username (admin) password (admin)
+2. Siswa = username (dimas) password (siswa)
+3. Guru = username (G0001) password (guru)
